@@ -3,7 +3,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: vidzilla-bot:latest
+    image: bmb-bot:latest
     container_name: bmb_social_media_bot
     working_dir: /app
     environment:
